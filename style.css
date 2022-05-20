@@ -35,6 +35,12 @@ a {
     overflow: hidden;
   }
 
+  img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
   .img-wrap {
     width: 300px;
     height: 400px;
