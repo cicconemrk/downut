@@ -35,10 +35,10 @@ a {
     overflow: hidden;
   }
 
-  img {
+  .img-zorp {
     max-width: 80%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: 250px\9; /* ie8 */
 }
 
   .img-wrap {
