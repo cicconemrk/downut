@@ -1,9 +1,9 @@
 <!DOCTYPE html>
+<!-- car example: https://mburnette.com/blog/recolor-product-with-one-image-and-css/-->
+<!-- sofa example: https://redstapler.co/change-image-color-pure-css/-->
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-
-awesome.min.css">
 <link rel="stylesheet" href="style.css">
 
 <title>Help</title>
@@ -30,15 +30,26 @@ awesome.min.css">
 
 <div id="mainDiv">
   <br><br><br><br><br>
+
   <center>
-  <h1>Fuck You</h1>
-  <button type="button" class="pack"
-    onclick="location.href = '/.';">
-    <b>Okay</b>
-  </button>
-  <br><br><br><br><br><br><br>
+    <img alt="img1" src="pics/downut-face.png"
+      width="100rm" height="100rm">
+      <br>
   </center>
 </div>
+
+<input name="MyColorPicker"
+     type="color"
+     id="MyColorPicker"  onchange="changeColor()" />
+<script>
+<script>
+function changeColor() {
+
+document.getElementById("mainDiv").style.backgroundColor =  document.getElementById(
+        "MyColorPicker").value;
+
+  }
+</script>
 
 
 </body>
