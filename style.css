@@ -1,12 +1,12 @@
 /* Text Stuff */
 h1{
-font size: 50px;
+font-size: 50px;
 color: white;
 text-decoration: none;
 }
 
 h2{
-font size: 35px;
+font-size: 35px;
 }
 
 h4{
@@ -87,8 +87,7 @@ background-color:#1e2124;
   }
 
 /* Buttons */
-button {
-         }
+
   .pack {
     background-color: #25C196;
     color: white;
